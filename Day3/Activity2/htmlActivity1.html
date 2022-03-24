@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.myDiv {
+  border: 1px outset red;
+  margin: 25px;
+  width :90%;
+  background-color:white;
+  text-align: center;
+}
+.grid-container {
+    display: grid;
+    margin:25px;
+    width:90%;
+    background-color:poderblue;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.grid-container > div {
+  background-color: white;
+}
+.grid-container1 {
+	border : 1px outset red;
+}
+</style>
+</head>
+<body style="background-color:powderblue;">
+
+
+<div class="myDiv" align="center">
+  <h2 style="color:#E75480">IPL Final-2020-Match Summary</h2>
+  <p style="color:#E75480">Venue:Dubai Internatinal Stadium</p>
+  <p style="color:#E75480">Toss:Delhi Capitals. Choose bat</p>
+</div>
+<div class="grid-container">
+
+    <div class="grid-container1">
+    <h3 style="color:#E75480">Team 1:Delhi Capitals</h3>
+        <ul>
+  		<li>Marcus Stoinis</li>
+  		<li>Shikar Dawan</li>
+  		<li>Ajinkya Rahane</li>
+        <li>Shreyas Iyer</li>
+        <li>Rishab Pant</li>
+        <li>Shimron Hetmyer</li>
+        <li>Axar Patel</li>
+        <li>Kagiso Rabada</li>
+        <li>Pravin Dubey</li>
+        <li>Ravichandran Aswin</li>
+	</ul>
+    </div>
+
+    <div class="grid-container1">
+    <h3 style="color:#E75480">Team 2:Mumbai Indians</h3>
+        <ul>
+  		<li>Rohit Sharma</li>
+  		<li>Quinton de Kock</li>
+  		<li>Suryakumar Yadav</li>
+        <li>Ishan Kishan</li>
+        <li>Keiron Pollard</li>
+        <li>Hardik Pandya</li>
+        <li>Krunal Pandya</li>
+        <li>Nathan Coulter-Nile</li>
+        <li>Trent Boult</li>
+        <li>Jeyant Yadav</li>
+	</ul>
+    </div>
+</div>
+<div class="myDiv" align="center">
+<p><b>Mumbai indians</b> won by<b> 5 wickets</b></p>
+</div>
+<div class="grid-container">
+
+    <div class="grid-container1">
+    <h3>Delhi Capitals</h3>
+    <h3>Score: 156/7</h3>
+    <h3>Overs: 20</h3>
+    </div>
+
+    <div class="grid-container1">
+    <h3>Mumbai Indians</h3>
+    <h3>Score: 157/5</h3>
+    <h3>Overs: 18.4</h3>
+    </div>
+</div>
+<button onclick="history.back()">Go Back</button>
+</body>
+</html>
